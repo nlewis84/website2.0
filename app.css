@@ -1,0 +1,41 @@
+html, body, header, .view {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 740px) {
+  html, body, header, .view {
+    height: 100vh;
+  }
+}
+
+nav.navbar {
+    background-color: #1d3557;
+}
+
+h1 {
+  letter-spacing: 8px;
+  padding-top: 0.75em;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#about, #portfolio, #contact {
+    height: 95%;
+}
+
+footer {
+    text-align: center;
+    margin: 2em 0;
+}

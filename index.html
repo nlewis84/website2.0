@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Lewis - Design and Music</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <html lang="en">
+
+    <header>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">Nathan Lewis</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HOME -->
+        <div id="home" class="view"
+            style="background-image: url('../Never\ Summer\ Mountains\ Pano.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mb-4 text-white text-center align-self-center">
+                        <h1 class="h1-reponsive text-white text-uppercase font-weight-bold mt-5 pt-md-5 pt-5">
+                            <strong>Nathan Lewis</strong></h1>
+                        <hr class="hr-light my-4">
+                        <h5 class="text-uppercase mb-4 text-white">
+                            <strong>design / music</strong></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <div id="about" class="container">
+        <h1 class="display-2">About</h1>
+        <p>I'm currently a Music Educator and beginning my journey as a Front-End Developer. I have a passion for
+            learning and teaching. As a life-long musician, I understand the diligence and perseverance required to
+            attain your goals. I am beginning my journey as a software developer and have an advanced
+            knowledge of Finale 26. I also have a strong base knowledge of sound design.
+        </p>
+        <p>
+            Let me help solve your
+            problems!
+        </p>
+    </div>
+
+    <!-- PORTFOLIO-->
+    <div id="portfolio" class="container">
+        <h1 class="display-2">Portfolio</h1>
+        <p>Below are several of my recent projects. I have an advanced knowledge of Finale 26 and am always
+            happy to help fellow music educators with their notation software challenges!</p>
+        <!-- add cards here that link to coding projects and PDFs/Sound Files of music projects -->
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact" class="container">
+        <h1 class="display-2">Contact</h1>
+        <form action="#nowhere">
+            <div class="form-row justify-content-center">
+                <div class="form-group col-3">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group col-3">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="form-group col-6">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="col-6">
+                    <div class="md-form">
+                        <textarea type="text" id="message" name="message" rows="4" class="form-control md-textarea"
+                            placeholder="Your message"></textarea>
+                        <label for="message"></label>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+        <div class="text-center justify-content-center">
+            <a class="btn btn-success text-white col-6"
+                onclick="document.getElementById('contact-form').submit();">Send</a>
+        </div>
+        <div class="status"></div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+<!-- FOOTER -->
+<footer>
+    <p>Email me at n.lewis.perc@gmail.com</p>
+    <!-- Copyright Info
+        Terms of Use
+        Site Map
+        Reference to top of page links -->
+</footer>
+
+</html>
