@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Lewis - Design and Music</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <html lang="en">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Nathan Lewis</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active"
+                    href="C:\Users\nllew\Documents\VSCode\Nathan Website\v2.0\index.html#home">Home <span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-link"
+                    href="C:\Users\nllew\Documents\VSCode\Nathan Website\v2.0\index.html#about">About</a>
+                <a class="nav-link"
+                    href="C:\Users\nllew\Documents\VSCode\Nathan Website\v2.0\index.html#portfolio">Portfolio</a>
+                <a class="nav-link"
+                    href="C:\Users\nllew\Documents\VSCode\Nathan Website\v2.0\index.html#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- COVID-19 -->
+    <div id="active" class="container active">
+        <h1 class="display-2">Covid-19 Data</h1>
+        <p>On March 21st, I began compiling data regarding COVID-19 in Texas, Collin County, and the US. I compiled all
+            of my data in the Google Sheet linked below. The data on this page represents the work I began in early
+            November import and parse JSON into a singular location and allowed me to more quickly log data.</p>
+        <div class="text-center sheet-button">
+            <a href="https://www.tinyurl.com/lewiscovid" class="btn btn-primary">COVID Google Sheet</a>
+        </div>
+    </div>
+    <div class="card-group">
+        <div class="col-sm-6">
+            <div class="card text-center bg-light mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">TEXAS</h4>
+                    <hr>
+                    <p class="card-text covid-headers">Cases<br>
+                        <span id="texasCases"></span></p>
+                    <p class="card-text covid-headers">Deaths<br>
+                        <span id="texasDeath"></span></p>
+                    <p class="card-text covid-headers">Testing<br>
+                        <span id="texasTesting"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card text-center bg-light mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">USA</h4>
+                    <hr>
+                    <p class="card-text covid-headers">Cases<br>
+                        <span id="usaCases"></span></p>
+                    <p class="card-text covid-headers">Deaths<br>
+                        <span id="usaDeath"></span></p>
+                    <p class="card-text covid-headers">Testing<br>
+                        <span id="usaTesting"></span></p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- SCRIPT -->
+        <!--AXIOS-->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="app.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+</body>
+
+<!-- FOOTER -->
+<footer>
+    <p>Email me at n.lewis.perc@gmail.com</p>
+    <!-- Copyright Info
+        Terms of Use
+        Site Map
+        Reference to top of page links -->
+</footer>
+
+</html>
